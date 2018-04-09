@@ -15,11 +15,25 @@ class UserRootVC: UIViewController {
     @IBOutlet weak var view_Navi: UIView!
     
     @IBOutlet weak var label_badge: UILabel!
+    
+    
+    let arrayValues = [("ic_favorite_border_03","我的收藏"),("ic_my_info_03","我的信息"),("ic_mdzj_03","我的足迹"),("ic_aqzx_03","安全中心")]
+    
+    
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        tableViewMain.register(UINib.init(nibName: "TCellQuan", bundle: nil), forCellReuseIdentifier: "TCellQuan")
+        tableViewMain.backgroundColor = FlatLightWhiteF1
+        
+        setRadiusFor(toview: label_badge, radius: 10, lineWidth: 0, lineColor: .clear)
+        
+        tableViewMain.register(UINib.init(nibName: "TCellUserRootHead", bundle: nil), forCellReuseIdentifier: "TCellUserRootHead")
+        tableViewMain.register(UINib.init(nibName: "TCellUserRootNormal", bundle: nil), forCellReuseIdentifier: "TCellUserRootNormal")
 
         // Do any additional setup after loading the view.
     }
@@ -28,18 +42,33 @@ class UserRootVC: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+
+}
+
+extension UserRootVC: UserPart1Delegate{
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    func setUserPart1Action(actionType:Int){
+        switch actionType {
+        case 0:
+            print("User-订单")
+            break
+        case 1:
+            print("User-服务")
+            break
+        case 2:
+            print("User-采购")
+            break
+        case 3:
+            print("User-配套")
+            break
+        case 4:
+            print("User-房源")
+            break
+        default:
+            print("default")
+        }
+        
     }
-    */
-
 }
 
 extension UserRootVC:UITableViewDataSource,UITableViewDelegate{
@@ -66,9 +95,40 @@ extension UserRootVC:UITableViewDataSource,UITableViewDelegate{
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: "TCellQuan", for: indexPath) as! TCellQuan
+        switch indexPath.section {
+        case 0:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "TCellUserRootHead", for: indexPath) as! TCellUserRootHead
+            cell.selectionStyle = UITableViewCellSelectionStyle.none
+            
+            cell.delegateUser = self
+            
+            return cell
+        case 1:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "TCellUserRootNormal", for: indexPath) as! TCellUserRootNormal
+            cell.selectionStyle = UITableViewCellSelectionStyle.none
+            
+            cell.imageV_icon.image = UIImage.init(named: arrayValues[indexPath.row].0)
+            cell.label_title.text = arrayValues[indexPath.row].1
+            if indexPath.row == 3{
+                cell.view_line.isHidden = true
+            }else{
+                cell.view_line.isHidden = false
+            }
+            return cell
+        case 2:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "TCellUserRootNormal", for: indexPath) as! TCellUserRootNormal
+            cell.selectionStyle = UITableViewCellSelectionStyle.none
+            
+            cell.imageV_icon.image = UIImage.init(named: "ic_setting_03")
+            cell.label_title.text = "设置"
+            cell.view_line.isHidden = true
+            return cell
+        default:
+            let cell = tableView.dequeueReusableCell(withIdentifier: "TCellUserRootNormal", for: indexPath) as! TCellUserRootNormal
+            return cell
+        }
         
-        return cell
+        
         
     }
     
@@ -81,10 +141,40 @@ extension UserRootVC:UITableViewDataSource,UITableViewDelegate{
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat{
-        return (IBScreenWidth - 24)*120/350 + 12
+        switch indexPath.section {
+        case 0:
+            return 310
+        case 1,2:
+            return 44
+        default:
+            return 0
+        }
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        if indexPath.section == 1 {
+            switch indexPath.row {
+            case 0:
+                print("收藏")
+                break
+            case 1:
+                print("信息")
+                break
+            case 2:
+                print("足迹")
+                break
+            case 3:
+                print("安全中心")
+                break
+            default:
+                print("User—default")
+            }
+        }
+        
+        if indexPath.section == 2 {
+            print("设置")
+        }
         
     }
     

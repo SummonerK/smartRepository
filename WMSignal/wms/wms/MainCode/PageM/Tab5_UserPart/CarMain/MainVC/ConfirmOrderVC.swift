@@ -336,41 +336,41 @@ class ConfirmOrderVC: UIViewController {
     
 }
 
-extension ConfirmOrderVC:orderConfirmDelegate{
-    func setConfirmAction(section:Int, actionType:ConfirmActionType){
-        
-//        let sectionItem = pushVaule?.arrayToPush[section]
+//extension ConfirmOrderVC:orderConfirmDelegate{
+//    func setConfirmAction(section:Int, actionType:ConfirmActionType){
 //        
-//        if actionType == .postStyle{
-//            PrintFM("选取运送")
-//        }
+////        let sectionItem = pushVaule?.arrayToPush[section]
+////        
+////        if actionType == .postStyle{
+////            PrintFM("选取运送")
+////        }
+////        
+////        if actionType == .ticketChoose{
+////            PrintFM("")
+////            
+////            if let storeid = sectionItem?.store_id{
+////                
+////                let Vc = TicketChooseVC(nibName: "TicketChooseVC", bundle: nil)
+////                
+////                Vc.useValue = (storeid.description,0) as? (storeId: String, totalFee: Int)
+////                
+////                Vc.choosedTicket = sectionItem?.defaultTicket
+////                
+////                Vc.ticketB = {(back:TicketListItemInfo?) in
+////                    sectionItem?.defaultTicket = back
+////
+////                    self.fixTotalPrice()
+////                    
+////                    self.tableViewMain.reloadSections(IndexSet.init(integer: section), with: UITableViewRowAnimation.none)
+////                }
+////                
+////                self.navigationController?.pushViewController(Vc, animated: true)
+////            }
+////            
+////        }
 //        
-//        if actionType == .ticketChoose{
-//            PrintFM("")
-//            
-//            if let storeid = sectionItem?.store_id{
-//                
-//                let Vc = TicketChooseVC(nibName: "TicketChooseVC", bundle: nil)
-//                
-//                Vc.useValue = (storeid.description,0) as? (storeId: String, totalFee: Int)
-//                
-//                Vc.choosedTicket = sectionItem?.defaultTicket
-//                
-//                Vc.ticketB = {(back:TicketListItemInfo?) in
-//                    sectionItem?.defaultTicket = back
-//
-//                    self.fixTotalPrice()
-//                    
-//                    self.tableViewMain.reloadSections(IndexSet.init(integer: section), with: UITableViewRowAnimation.none)
-//                }
-//                
-//                self.navigationController?.pushViewController(Vc, animated: true)
-//            }
-//            
-//        }
-        
-    }
-}
+//    }
+//}
 
 
 extension ConfirmOrderVC:UITableViewDataSource,UITableViewDelegate{

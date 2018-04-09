@@ -150,3 +150,20 @@ protocol orderConfirmDelegate{
     func setConfirmAction(section:Int, actionType:ConfirmActionType)
 }
 
+/**
+ *主页>part1
+ *代理内容，0 最新资讯；1-8 对应网格按钮
+ */
+protocol MainPart1Delegate{
+    func setMainPart1Action(actionType:Int)
+}
+
+/**
+ *主页>part1
+ *代理内容，0-订单，1-4-对应网格
+ */
+protocol UserPart1Delegate{
+    func setUserPart1Action(actionType:Int)
+}
+
+

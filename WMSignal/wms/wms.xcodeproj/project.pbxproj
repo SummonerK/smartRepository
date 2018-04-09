@@ -135,6 +135,14 @@
 		63AC77EB207A0C47000049E2 /* Lottie.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63AC77B22079F448000049E2 /* Lottie.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		63AC77ED207A0C4D000049E2 /* pop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63AC77B42079F448000049E2 /* pop.framework */; };
 		63AC77EE207A0C4D000049E2 /* pop.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 63AC77B42079F448000049E2 /* pop.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		63B4E068207B405800D41278 /* CCellMainPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4E066207B405800D41278 /* CCellMainPart1.swift */; };
+		63B4E069207B405800D41278 /* CCellMainPart1.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B4E067207B405800D41278 /* CCellMainPart1.xib */; };
+		63B4E06C207B406900D41278 /* CCellMainPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4E06A207B406900D41278 /* CCellMainPart2.swift */; };
+		63B4E06D207B406900D41278 /* CCellMainPart2.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B4E06B207B406900D41278 /* CCellMainPart2.xib */; };
+		63B4E070207B407C00D41278 /* CCellMainPart3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4E06E207B407C00D41278 /* CCellMainPart3.swift */; };
+		63B4E071207B407C00D41278 /* CCellMainPart3.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B4E06F207B407C00D41278 /* CCellMainPart3.xib */; };
+		63B4E074207B409900D41278 /* CCellMainPart4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B4E072207B409900D41278 /* CCellMainPart4.swift */; };
+		63B4E075207B409900D41278 /* CCellMainPart4.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63B4E073207B409900D41278 /* CCellMainPart4.xib */; };
 		D3480D80F893E695F7D482EF /* Pods_wms.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF5F2D0ED0A99853007E8D1E /* Pods_wms.framework */; };
 /* End PBXBuildFile section */
 
@@ -304,6 +312,14 @@
 		63AC77E5207A03C6000049E2 /* BridgeHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 		63AC77E6207A0563000049E2 /* Source.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Source.bundle; sourceTree = "<group>"; };
 		63AC77E8207A0679000049E2 /* WMSMedia.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = WMSMedia.xcassets; sourceTree = "<group>"; };
+		63B4E066207B405800D41278 /* CCellMainPart1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCellMainPart1.swift; sourceTree = "<group>"; };
+		63B4E067207B405800D41278 /* CCellMainPart1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCellMainPart1.xib; sourceTree = "<group>"; };
+		63B4E06A207B406900D41278 /* CCellMainPart2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCellMainPart2.swift; sourceTree = "<group>"; };
+		63B4E06B207B406900D41278 /* CCellMainPart2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCellMainPart2.xib; sourceTree = "<group>"; };
+		63B4E06E207B407C00D41278 /* CCellMainPart3.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCellMainPart3.swift; sourceTree = "<group>"; };
+		63B4E06F207B407C00D41278 /* CCellMainPart3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCellMainPart3.xib; sourceTree = "<group>"; };
+		63B4E072207B409900D41278 /* CCellMainPart4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CCellMainPart4.swift; sourceTree = "<group>"; };
+		63B4E073207B409900D41278 /* CCellMainPart4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CCellMainPart4.xib; sourceTree = "<group>"; };
 		8FC471E3BA82B2B59CD5BF08 /* Pods-wms.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wms.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wms/Pods-wms.debug.xcconfig"; sourceTree = "<group>"; };
 		909DA1014BA95B94C0A2E3BE /* Pods-wms.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wms.release.xcconfig"; path = "Pods/Target Support Files/Pods-wms/Pods-wms.release.xcconfig"; sourceTree = "<group>"; };
 		EF5F2D0ED0A99853007E8D1E /* Pods_wms.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wms.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -508,6 +524,8 @@
 		63AC76812079F0BD000049E2 /* Tab1_Main */ = {
 			isa = PBXGroup;
 			children = (
+				63B4E062207B401F00D41278 /* MainRootFils */,
+				63B4E063207B401F00D41278 /* OtherMod */,
 				63AC77D32079F6E7000049E2 /* MainRootVC.swift */,
 			);
 			path = Tab1_Main;
@@ -846,6 +864,44 @@
 			path = Lottie;
 			sourceTree = "<group>";
 		};
+		63B4E062207B401F00D41278 /* MainRootFils */ = {
+			isa = PBXGroup;
+			children = (
+				63B4E066207B405800D41278 /* CCellMainPart1.swift */,
+				63B4E067207B405800D41278 /* CCellMainPart1.xib */,
+				63B4E06A207B406900D41278 /* CCellMainPart2.swift */,
+				63B4E06B207B406900D41278 /* CCellMainPart2.xib */,
+				63B4E06E207B407C00D41278 /* CCellMainPart3.swift */,
+				63B4E06F207B407C00D41278 /* CCellMainPart3.xib */,
+				63B4E072207B409900D41278 /* CCellMainPart4.swift */,
+				63B4E073207B409900D41278 /* CCellMainPart4.xib */,
+			);
+			path = MainRootFils;
+			sourceTree = "<group>";
+		};
+		63B4E063207B401F00D41278 /* OtherMod */ = {
+			isa = PBXGroup;
+			children = (
+				63B4E064207B401F00D41278 /* ContentFiles */,
+				63B4E065207B401F00D41278 /* MainVC */,
+			);
+			path = OtherMod;
+			sourceTree = "<group>";
+		};
+		63B4E064207B401F00D41278 /* ContentFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContentFiles;
+			sourceTree = "<group>";
+		};
+		63B4E065207B401F00D41278 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
 		74EA727AC03B02FB050BC69D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -979,11 +1035,13 @@
 				63AC77182079F0BD000049E2 /* TCellMallCar.xib in Resources */,
 				63AC754F2079EBF8000049E2 /* LaunchScreen.storyboard in Resources */,
 				63AC77632079F0BD000049E2 /* CCellUserPartMenu.xib in Resources */,
+				63B4E069207B405800D41278 /* CCellMainPart1.xib in Resources */,
 				63AC77872079F16C000049E2 /* TabUser.storyboard in Resources */,
 				63AC77CF2079F448000049E2 /* LottieLogo1.json in Resources */,
 				63AC77692079F0BE000049E2 /* CCellUserSetFilesCount.xib in Resources */,
 				63AC771E2079F0BD000049E2 /* viewConfirmHeaderRight.xib in Resources */,
 				63AC777F2079F100000049E2 /* TabMain.storyboard in Resources */,
+				63B4E06D207B406900D41278 /* CCellMainPart2.xib in Resources */,
 				6358B9D2207A1F160099EB84 /* TCellUserRootHead.xib in Resources */,
 				63AC776B2079F0BE000049E2 /* CHUserPartTitle.xib in Resources */,
 				63AC77E22079FC1B000049E2 /* MyLaunch.storyboard in Resources */,
@@ -1003,6 +1061,8 @@
 				63AC770E2079F0BD000049E2 /* TCellAddress.xib in Resources */,
 				63AC77672079F0BE000049E2 /* CCellUserSet.xib in Resources */,
 				63AC77712079F0BE000049E2 /* UserFooterFollow.xib in Resources */,
+				63B4E071207B407C00D41278 /* CCellMainPart3.xib in Resources */,
+				63B4E075207B409900D41278 /* CCellMainPart4.xib in Resources */,
 				63AC77CD2079F448000049E2 /* IconTransitions.json in Resources */,
 				63AC776F2079F0BE000049E2 /* TCellQuan.xib in Resources */,
 				63AC77782079F0BE000049E2 /* TicketChooseVC.xib in Resources */,
@@ -1104,7 +1164,9 @@
 				63AC77BA2079F448000049E2 /* Reflect+ArcFile.swift in Sources */,
 				63AC77212079F0BD000049E2 /* viewMallHolder.swift in Sources */,
 				63AC771D2079F0BD000049E2 /* viewConfirmHeaderRight.swift in Sources */,
+				63B4E06C207B406900D41278 /* CCellMainPart2.swift in Sources */,
 				63AC77272079F0BD000049E2 /* ShoppingCarVC.swift in Sources */,
+				63B4E070207B407C00D41278 /* CCellMainPart3.swift in Sources */,
 				63AC77B92079F448000049E2 /* INOScrollViewCell.swift in Sources */,
 				63AC776C2079F0BE000049E2 /* TCellNotice.swift in Sources */,
 				63AC77D62079F6FB000049E2 /* MsgRootVC.swift in Sources */,
@@ -1136,9 +1198,11 @@
 				63AC77CA2079F448000049E2 /* ExampleIrregularityContentView.swift in Sources */,
 				63AC77702079F0BE000049E2 /* UserFooterFollow.swift in Sources */,
 				63AC77C82079F448000049E2 /* ExampleBouncesContentView.swift in Sources */,
+				63B4E068207B405800D41278 /* CCellMainPart1.swift in Sources */,
 				63AC775C2079F0BD000049E2 /* AboutUSVC.swift in Sources */,
 				6358B9D5207A1F320099EB84 /* TCellUserRootNormal.swift in Sources */,
 				63AC77622079F0BD000049E2 /* CCellUserPartMenu.swift in Sources */,
+				63B4E074207B409900D41278 /* CCellMainPart4.swift in Sources */,
 				63AC77762079F0BE000049E2 /* sysNoticeVC.swift in Sources */,
 				63AC77152079F0BD000049E2 /* AddressListVC.swift in Sources */,
 				63AC776A2079F0BE000049E2 /* CHUserPartTitle.swift in Sources */,
