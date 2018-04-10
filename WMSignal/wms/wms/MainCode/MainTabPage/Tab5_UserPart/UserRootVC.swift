@@ -22,6 +22,7 @@ class UserRootVC: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        self.tabBarController?.tabBar.isHidden = false
         self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
 
@@ -51,6 +52,9 @@ extension UserRootVC: UserPart1Delegate{
         switch actionType {
         case 0:
             print("User-订单")
+            let Vc = OrderMainVC(nibName: "OrderMainVC", bundle: nil)
+            self.tabBarController?.tabBar.isHidden = true
+            self.navigationController?.pushViewController(Vc, animated: true)
             break
         case 1:
             print("User-服务")
@@ -157,6 +161,9 @@ extension UserRootVC:UITableViewDataSource,UITableViewDelegate{
             switch indexPath.row {
             case 0:
                 print("收藏")
+                let Vc = LikeMainVC(nibName: "LikeMainVC", bundle: nil)
+                self.tabBarController?.tabBar.isHidden = true
+                self.navigationController?.pushViewController(Vc, animated: true)
                 break
             case 1:
                 print("信息")

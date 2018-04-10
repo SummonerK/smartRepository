@@ -19,6 +19,7 @@ class MainRootVC: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.navigationController?.setNavigationBarHidden(true, animated: false)
+        self.tabBarController?.tabBar.isHidden = false
     }
 
     override func viewDidLoad() {
@@ -89,6 +90,9 @@ extension MainRootVC:MainPart1Delegate{
             break
         case 1:
             print("法律")
+            let service = ServiceTabC()
+            self.tabBarController?.tabBar.isHidden = true
+            self.navigationController?.pushViewController(service, animated: true)
             break
         case 2:
             print("创投")
@@ -187,6 +191,9 @@ extension MainRootVC:UICollectionViewDataSource,UICollectionViewDelegate{
             switch indexPath.row{
             case 0:
                 print("part2 办公采购")
+                let workSpace = WorkSpaceTabC()
+                self.tabBarController?.tabBar.isHidden = true
+                self.navigationController?.pushViewController(workSpace, animated: true)
             case 1:
                 print("part2 日常合同审核")
             case 2:

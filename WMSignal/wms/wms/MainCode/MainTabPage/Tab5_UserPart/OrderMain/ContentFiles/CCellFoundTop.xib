@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16E195" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CCellFoundTop" id="gTV-IL-0wX" customClass="CCellFoundTop" customModule="wms" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="36"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="36"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bms-UN-oVj">
+                        <rect key="frame" x="44.5" y="8" width="33" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" priority="200" id="jM7-EN-Zc0"/>
+                            <constraint firstAttribute="height" constant="21" id="noG-hF-18Q"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="PingFangSC-Regular" family="PingFang SC" pointSize="13"/>
+                        <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="Bms-UN-oVj" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="1Ao-70-sJo"/>
+                <constraint firstItem="Bms-UN-oVj" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="KzW-aJ-APz"/>
+            </constraints>
+            <size key="customSize" width="241" height="61"/>
+            <connections>
+                <outlet property="label_txt" destination="Bms-UN-oVj" id="FcJ-nP-3lS"/>
+            </connections>
+            <point key="canvasLocation" x="-52" y="-91"/>
+        </collectionViewCell>
+    </objects>
+</document>

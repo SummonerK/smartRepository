@@ -25,7 +25,6 @@ class MainTabC: UITabBarController,UITabBarControllerDelegate {
         let v4 = TabZone.instantiateInitialViewController()!
         let v5 = TabUser.instantiateInitialViewController()!
         
-//        let image = UIImage(named:"tab_center")?.withRenderingMode(.alwaysOriginal)
         let image_main_n = UIImage(named:"tab1n")?.withRenderingMode(.alwaysOriginal)
         let image_main_s = UIImage(named:"tab1s")?.withRenderingMode(.alwaysOriginal)
         
