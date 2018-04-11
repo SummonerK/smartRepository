@@ -167,12 +167,18 @@ extension UserRootVC:UITableViewDataSource,UITableViewDelegate{
                 break
             case 1:
                 print("信息")
+                let Vc = TabUserInfoVC(nibName: "TabUserInfoVC", bundle: nil)
+                self.tabBarController?.tabBar.isHidden = true
+                self.navigationController?.pushViewController(Vc, animated: true)
                 break
             case 2:
                 print("足迹")
                 break
             case 3:
                 print("安全中心")
+                let Vc = TabUserSafeVC(nibName: "TabUserSafeVC", bundle: nil)
+                self.tabBarController?.tabBar.isHidden = true
+                self.navigationController?.pushViewController(Vc, animated: true)
                 break
             default:
                 print("User—default")
@@ -181,6 +187,9 @@ extension UserRootVC:UITableViewDataSource,UITableViewDelegate{
         
         if indexPath.section == 2 {
             print("设置")
+            let Vc = TabUserSetVC(nibName: "TabUserSetVC", bundle: nil)
+            self.tabBarController?.tabBar.isHidden = true
+            self.navigationController?.pushViewController(Vc, animated: true)
         }
         
     }

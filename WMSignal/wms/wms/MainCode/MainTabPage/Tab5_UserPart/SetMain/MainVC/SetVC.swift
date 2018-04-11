@@ -42,7 +42,6 @@ class SetVC: UIViewController,UIImagePickerControllerDelegate,UINavigationContro
     var _tapGesture: UITapGestureRecognizer!
     
 //    var modelUserInfoData:modelUserInfo?              ///个人详情data
-//    
 //    // TODO: NetWork
 //    let OrderM = ViewModel()
 //    let disposeBag = DisposeBag()

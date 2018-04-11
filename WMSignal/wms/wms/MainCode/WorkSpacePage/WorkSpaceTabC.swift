@@ -24,7 +24,7 @@ class WorkSpaceTabC: UITabBarController,UITabBarControllerDelegate {
         let v3 = Tab3ShoppingCar.instantiateInitialViewController()!
         let v4 = TabUser.instantiateInitialViewController()!
         
-        let image_main_n = UIImage(named:"ic_bgcg_press_03")?.withRenderingMode(.alwaysOriginal)
+        let image_main_n = UIImage(named:"caigou")?.withRenderingMode(.alwaysOriginal)
         let image_main_s = UIImage(named:"ic_bgcg_press_03")?.withRenderingMode(.alwaysOriginal)
         
         let image_msg_n = UIImage(named:"fuwu")?.withRenderingMode(.alwaysOriginal)

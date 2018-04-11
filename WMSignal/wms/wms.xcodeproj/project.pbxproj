@@ -117,6 +117,14 @@
 		634EDF13207C99BB00DCACFD /* CaigouMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634EDF12207C99BB00DCACFD /* CaigouMainVC.swift */; };
 		634EDF15207C99CF00DCACFD /* FenleiMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634EDF14207C99CF00DCACFD /* FenleiMainVC.swift */; };
 		634EDF17207C99E700DCACFD /* ShoppingCarMainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634EDF16207C99E700DCACFD /* ShoppingCarMainVC.swift */; };
+		6357DA93207DE12500E89E74 /* NetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6357DA92207DE12500E89E74 /* NetManager.swift */; };
+		6357DA96207DE1CA00E89E74 /* PostModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6357DA95207DE1CA00E89E74 /* PostModelTest.swift */; };
+		6357DA99207E035000E89E74 /* TabUserSetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6357DA97207E035000E89E74 /* TabUserSetVC.swift */; };
+		6357DA9A207E035000E89E74 /* TabUserSetVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6357DA98207E035000E89E74 /* TabUserSetVC.xib */; };
+		6357DAA0207E09F900E89E74 /* TabUserSafeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6357DA9E207E09F900E89E74 /* TabUserSafeVC.swift */; };
+		6357DAA1207E09F900E89E74 /* TabUserSafeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6357DA9F207E09F900E89E74 /* TabUserSafeVC.xib */; };
+		6357DAA4207E108A00E89E74 /* TabUserInfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6357DAA2207E108A00E89E74 /* TabUserInfoVC.swift */; };
+		6357DAA5207E108A00E89E74 /* TabUserInfoVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6357DAA3207E108A00E89E74 /* TabUserInfoVC.xib */; };
 		63AC75422079EBF8000049E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC75412079EBF8000049E2 /* AppDelegate.swift */; };
 		63AC75442079EBF8000049E2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AC75432079EBF8000049E2 /* ViewController.swift */; };
 		63AC75472079EBF8000049E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63AC75452079EBF8000049E2 /* Main.storyboard */; };
@@ -315,6 +323,14 @@
 		634EDF12207C99BB00DCACFD /* CaigouMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CaigouMainVC.swift; sourceTree = "<group>"; };
 		634EDF14207C99CF00DCACFD /* FenleiMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FenleiMainVC.swift; sourceTree = "<group>"; };
 		634EDF16207C99E700DCACFD /* ShoppingCarMainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoppingCarMainVC.swift; sourceTree = "<group>"; };
+		6357DA92207DE12500E89E74 /* NetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetManager.swift; sourceTree = "<group>"; };
+		6357DA95207DE1CA00E89E74 /* PostModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostModelTest.swift; sourceTree = "<group>"; };
+		6357DA97207E035000E89E74 /* TabUserSetVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabUserSetVC.swift; sourceTree = "<group>"; };
+		6357DA98207E035000E89E74 /* TabUserSetVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabUserSetVC.xib; sourceTree = "<group>"; };
+		6357DA9E207E09F900E89E74 /* TabUserSafeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabUserSafeVC.swift; sourceTree = "<group>"; };
+		6357DA9F207E09F900E89E74 /* TabUserSafeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabUserSafeVC.xib; sourceTree = "<group>"; };
+		6357DAA2207E108A00E89E74 /* TabUserInfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabUserInfoVC.swift; sourceTree = "<group>"; };
+		6357DAA3207E108A00E89E74 /* TabUserInfoVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TabUserInfoVC.xib; sourceTree = "<group>"; };
 		63AC753E2079EBF8000049E2 /* wms.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wms.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63AC75412079EBF8000049E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63AC75432079EBF8000049E2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -534,6 +550,7 @@
 		634EDE00207C8E0800DCACFD /* Tab5_UserPart */ = {
 			isa = PBXGroup;
 			children = (
+				6357DA9B207E09CD00E89E74 /* SafePart */,
 				634EDE01207C8E0800DCACFD /* AddressMain */,
 				634EDE0D207C8E0800DCACFD /* CarMain */,
 				634EDE23207C8E0800DCACFD /* LikeMain */,
@@ -734,6 +751,8 @@
 				634EDE3E207C8E0800DCACFD /* NameChangeVC.swift */,
 				634EDE3F207C8E0800DCACFD /* SetVC.swift */,
 				634EDE40207C8E0800DCACFD /* SexChangeVC.swift */,
+				6357DA97207E035000E89E74 /* TabUserSetVC.swift */,
+				6357DA98207E035000E89E74 /* TabUserSetVC.xib */,
 			);
 			path = MainVC;
 			sourceTree = "<group>";
@@ -1045,6 +1064,41 @@
 			path = VC;
 			sourceTree = "<group>";
 		};
+		6357DA94207DE1CA00E89E74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6357DA95207DE1CA00E89E74 /* PostModelTest.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		6357DA9B207E09CD00E89E74 /* SafePart */ = {
+			isa = PBXGroup;
+			children = (
+				6357DA9C207E09CD00E89E74 /* ContentFiles */,
+				6357DA9D207E09CD00E89E74 /* MainVC */,
+			);
+			path = SafePart;
+			sourceTree = "<group>";
+		};
+		6357DA9C207E09CD00E89E74 /* ContentFiles */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContentFiles;
+			sourceTree = "<group>";
+		};
+		6357DA9D207E09CD00E89E74 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				6357DA9E207E09F900E89E74 /* TabUserSafeVC.swift */,
+				6357DA9F207E09F900E89E74 /* TabUserSafeVC.xib */,
+				6357DAA2207E108A00E89E74 /* TabUserInfoVC.swift */,
+				6357DAA3207E108A00E89E74 /* TabUserInfoVC.xib */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
 		63AC75352079EBF8000049E2 = {
 			isa = PBXGroup;
 			children = (
@@ -1166,6 +1220,8 @@
 		63AC75772079ED5B000049E2 /* NetWork */ = {
 			isa = PBXGroup;
 			children = (
+				6357DA94207DE1CA00E89E74 /* Models */,
+				6357DA92207DE12500E89E74 /* NetManager.swift */,
 			);
 			path = NetWork;
 			sourceTree = "<group>";
@@ -1420,6 +1476,7 @@
 				634EDDE5207C8C0E00DCACFD /* TabMain.storyboard in Resources */,
 				634EDED3207C900100DCACFD /* Tab1Caigou.storyboard in Resources */,
 				634EDE7F207C8E0800DCACFD /* TCellAddressChoose.xib in Resources */,
+				6357DAA1207E09F900E89E74 /* TabUserSafeVC.xib in Resources */,
 				634EDEB4207C8E0800DCACFD /* CHUserPartTitle.xib in Resources */,
 				63AC77C32079F448000049E2 /* ShareView.xib in Resources */,
 				634EDEB6207C8E0800DCACFD /* TCellNotice.xib in Resources */,
@@ -1454,6 +1511,7 @@
 				63AC77E22079FC1B000049E2 /* MyLaunch.storyboard in Resources */,
 				634EDE73207C8E0800DCACFD /* CCellMainPart2.xib in Resources */,
 				63AC754C2079EBF8000049E2 /* Assets.xcassets in Resources */,
+				6357DAA5207E108A00E89E74 /* TabUserInfoVC.xib in Resources */,
 				634EDEA4207C8E0800DCACFD /* OrderMainVC.xib in Resources */,
 				634EDDE6207C8C0E00DCACFD /* TabMsg.storyboard in Resources */,
 				634EDEBC207C8E0800DCACFD /* UserFooterV.xib in Resources */,
@@ -1464,6 +1522,7 @@
 				634EDE89207C8E0800DCACFD /* viewConfirmFooter.xib in Resources */,
 				63AC77CD2079F448000049E2 /* IconTransitions.json in Resources */,
 				634EDEC6207C8E0800DCACFD /* TCellUserRootNormal.xib in Resources */,
+				6357DA9A207E035000E89E74 /* TabUserSetVC.xib in Resources */,
 				634EDED7207C902100DCACFD /* Tab3ShoppingCar.storyboard in Resources */,
 				63AC77E7207A0563000049E2 /* Source.bundle in Resources */,
 				634EDEAA207C8E0800DCACFD /* CCellUserPartHead.xib in Resources */,
@@ -1573,6 +1632,7 @@
 				634EDEBF207C8E0800DCACFD /* TicketChooseVC.swift in Sources */,
 				634EDE86207C8E0800DCACFD /* TCellMallCar.swift in Sources */,
 				63AC77C92079F448000049E2 /* ExampleHighlightableContentView.swift in Sources */,
+				6357DA99207E035000E89E74 /* TabUserSetVC.swift in Sources */,
 				634EDE6F207C8E0800DCACFD /* MainTabC.swift in Sources */,
 				63AC77BC2079F448000049E2 /* Reflect+Convert.swift in Sources */,
 				63AC75802079EF86000049E2 /* Arrays.swift in Sources */,
@@ -1612,6 +1672,7 @@
 				63AC77CA2079F448000049E2 /* ExampleIrregularityContentView.swift in Sources */,
 				63AC77C82079F448000049E2 /* ExampleBouncesContentView.swift in Sources */,
 				634EDF0D207C991F00DCACFD /* ShuiwuMainVC.swift in Sources */,
+				6357DA96207DE1CA00E89E74 /* PostModelTest.swift in Sources */,
 				63AC77E4207A0234000049E2 /* SplashView.swift in Sources */,
 				634EDE97207C8E0800DCACFD /* LikeGoodsVC.swift in Sources */,
 				634EDE7E207C8E0800DCACFD /* TCellAddressChoose.swift in Sources */,
@@ -1630,12 +1691,15 @@
 				634EDEA3207C8E0800DCACFD /* OrderMainVC.swift in Sources */,
 				634EDEBB207C8E0800DCACFD /* UserFooterV.swift in Sources */,
 				634EDE9C207C8E0800DCACFD /* LoginNaviC.swift in Sources */,
+				6357DAA4207E108A00E89E74 /* TabUserInfoVC.swift in Sources */,
 				634EDE8A207C8E0800DCACFD /* viewConfirmHeaderN.swift in Sources */,
 				63AC77CB2079F448000049E2 /* ExampleTipsContentView.swift in Sources */,
 				63AC75422079EBF8000049E2 /* AppDelegate.swift in Sources */,
 				634EDE94207C8E0800DCACFD /* OrderPayVC.swift in Sources */,
+				6357DAA0207E09F900E89E74 /* TabUserSafeVC.swift in Sources */,
 				63AC77DE2079F963000049E2 /* IBProtrolManager.swift in Sources */,
 				634EDE7A207C8E0800DCACFD /* ServiceRootVC.swift in Sources */,
+				6357DA93207DE12500E89E74 /* NetManager.swift in Sources */,
 				634EDF0B207C990200DCACFD /* ChuangtouMainVC.swift in Sources */,
 				63AC75852079EF86000049E2 /* Views.swift in Sources */,
 				634EDE85207C8E0800DCACFD /* ModelOrder.swift in Sources */,
