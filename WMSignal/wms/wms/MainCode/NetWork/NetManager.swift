@@ -31,6 +31,12 @@ enum NETManager {
 
 }
 
+extension Observable{
+    func IbMapp() {
+        
+    }
+}
+
 extension NETManager: TargetType {
     
     var baseURL: URL {
