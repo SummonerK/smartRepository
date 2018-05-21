@@ -7,6 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6315DCF220809468002C7C2D /* Chatto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6315DCD420809468002C7C2D /* Chatto.framework */; };
+		6315DCF320809468002C7C2D /* ChattoAdditions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6315DCD520809468002C7C2D /* ChattoAdditions.framework */; };
+		6315DCF420809468002C7C2D /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCD620809468002C7C2D /* ChatVC.swift */; };
+		6315DCF520809468002C7C2D /* ChatVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6315DCD720809468002C7C2D /* ChatVC.xib */; };
+		6315DCF620809468002C7C2D /* BaseMessageCollectionViewCellAvatarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCD920809468002C7C2D /* BaseMessageCollectionViewCellAvatarStyle.swift */; };
+		6315DCF720809468002C7C2D /* BaseMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCDA20809468002C7C2D /* BaseMessageHandler.swift */; };
+		6315DCF820809468002C7C2D /* ChatItemsDemoDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCDB20809468002C7C2D /* ChatItemsDemoDecorator.swift */; };
+		6315DCF920809468002C7C2D /* ChattoNavi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCDC20809468002C7C2D /* ChattoNavi.swift */; };
+		6315DCFA20809468002C7C2D /* ChattoNavi.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6315DCDD20809468002C7C2D /* ChattoNavi.xib */; };
+		6315DCFB20809468002C7C2D /* FakeDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCDE20809468002C7C2D /* FakeDataSource.swift */; };
+		6315DCFC20809468002C7C2D /* FakeMessageFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCDF20809468002C7C2D /* FakeMessageFactory.swift */; };
+		6315DCFD20809468002C7C2D /* FakeMessageSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCE020809468002C7C2D /* FakeMessageSender.swift */; };
+		6315DCFE20809468002C7C2D /* DemoPhotoMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCE220809468002C7C2D /* DemoPhotoMessageHandler.swift */; };
+		6315DCFF20809468002C7C2D /* DemoPhotoMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCE320809468002C7C2D /* DemoPhotoMessageModel.swift */; };
+		6315DD0020809468002C7C2D /* DemoPhotoMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCE420809468002C7C2D /* DemoPhotoMessageViewModel.swift */; };
+		6315DD0120809468002C7C2D /* SendingStatusCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCE620809468002C7C2D /* SendingStatusCollectionViewCell.swift */; };
+		6315DD0220809468002C7C2D /* SendingStatusCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6315DCE720809468002C7C2D /* SendingStatusCollectionViewCell.xib */; };
+		6315DD0320809468002C7C2D /* SendingStatusPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCE820809468002C7C2D /* SendingStatusPresenter.swift */; };
+		6315DD0420809468002C7C2D /* SlidingDatasSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCE920809468002C7C2D /* SlidingDatasSource.swift */; };
+		6315DD0520809468002C7C2D /* DemoTextMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCEB20809468002C7C2D /* DemoTextMessageHandler.swift */; };
+		6315DD0620809468002C7C2D /* DemoTextMessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCEC20809468002C7C2D /* DemoTextMessageModel.swift */; };
+		6315DD0720809468002C7C2D /* DemoTextMessageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCED20809468002C7C2D /* DemoTextMessageViewModel.swift */; };
+		6315DD0820809468002C7C2D /* TimeSeparatorCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCEF20809468002C7C2D /* TimeSeparatorCollectionViewCell.swift */; };
+		6315DD0920809468002C7C2D /* TimeSeparatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCF020809468002C7C2D /* TimeSeparatorModel.swift */; };
+		6315DD0A20809468002C7C2D /* TimeSeparatorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6315DCF120809468002C7C2D /* TimeSeparatorPresenter.swift */; };
 		634EDDE5207C8C0E00DCACFD /* TabMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634EDDDE207C8C0E00DCACFD /* TabMain.storyboard */; };
 		634EDDE6207C8C0E00DCACFD /* TabMsg.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634EDDDF207C8C0E00DCACFD /* TabMsg.storyboard */; };
 		634EDDE7207C8C0E00DCACFD /* TabService.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634EDDE0207C8C0E00DCACFD /* TabService.storyboard */; };
@@ -213,6 +238,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		6315DCD420809468002C7C2D /* Chatto.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Chatto.framework; sourceTree = "<group>"; };
+		6315DCD520809468002C7C2D /* ChattoAdditions.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ChattoAdditions.framework; sourceTree = "<group>"; };
+		6315DCD620809468002C7C2D /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		6315DCD720809468002C7C2D /* ChatVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatVC.xib; sourceTree = "<group>"; };
+		6315DCD920809468002C7C2D /* BaseMessageCollectionViewCellAvatarStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMessageCollectionViewCellAvatarStyle.swift; sourceTree = "<group>"; };
+		6315DCDA20809468002C7C2D /* BaseMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMessageHandler.swift; sourceTree = "<group>"; };
+		6315DCDB20809468002C7C2D /* ChatItemsDemoDecorator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatItemsDemoDecorator.swift; sourceTree = "<group>"; };
+		6315DCDC20809468002C7C2D /* ChattoNavi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChattoNavi.swift; sourceTree = "<group>"; };
+		6315DCDD20809468002C7C2D /* ChattoNavi.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChattoNavi.xib; sourceTree = "<group>"; };
+		6315DCDE20809468002C7C2D /* FakeDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeDataSource.swift; sourceTree = "<group>"; };
+		6315DCDF20809468002C7C2D /* FakeMessageFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeMessageFactory.swift; sourceTree = "<group>"; };
+		6315DCE020809468002C7C2D /* FakeMessageSender.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FakeMessageSender.swift; sourceTree = "<group>"; };
+		6315DCE220809468002C7C2D /* DemoPhotoMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPhotoMessageHandler.swift; sourceTree = "<group>"; };
+		6315DCE320809468002C7C2D /* DemoPhotoMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPhotoMessageModel.swift; sourceTree = "<group>"; };
+		6315DCE420809468002C7C2D /* DemoPhotoMessageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoPhotoMessageViewModel.swift; sourceTree = "<group>"; };
+		6315DCE620809468002C7C2D /* SendingStatusCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingStatusCollectionViewCell.swift; sourceTree = "<group>"; };
+		6315DCE720809468002C7C2D /* SendingStatusCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SendingStatusCollectionViewCell.xib; sourceTree = "<group>"; };
+		6315DCE820809468002C7C2D /* SendingStatusPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SendingStatusPresenter.swift; sourceTree = "<group>"; };
+		6315DCE920809468002C7C2D /* SlidingDatasSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlidingDatasSource.swift; sourceTree = "<group>"; };
+		6315DCEB20809468002C7C2D /* DemoTextMessageHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTextMessageHandler.swift; sourceTree = "<group>"; };
+		6315DCEC20809468002C7C2D /* DemoTextMessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTextMessageModel.swift; sourceTree = "<group>"; };
+		6315DCED20809468002C7C2D /* DemoTextMessageViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTextMessageViewModel.swift; sourceTree = "<group>"; };
+		6315DCEF20809468002C7C2D /* TimeSeparatorCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSeparatorCollectionViewCell.swift; sourceTree = "<group>"; };
+		6315DCF020809468002C7C2D /* TimeSeparatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSeparatorModel.swift; sourceTree = "<group>"; };
+		6315DCF120809468002C7C2D /* TimeSeparatorPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeSeparatorPresenter.swift; sourceTree = "<group>"; };
 		634EDDDE207C8C0E00DCACFD /* TabMain.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabMain.storyboard; sourceTree = "<group>"; };
 		634EDDDF207C8C0E00DCACFD /* TabMsg.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabMsg.storyboard; sourceTree = "<group>"; };
 		634EDDE0207C8C0E00DCACFD /* TabService.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = TabService.storyboard; sourceTree = "<group>"; };
@@ -401,6 +451,8 @@
 				D3480D80F893E695F7D482EF /* Pods_wms.framework in Frameworks */,
 				63AC77EA207A0C47000049E2 /* Lottie.framework in Frameworks */,
 				63AC77ED207A0C4D000049E2 /* pop.framework in Frameworks */,
+				6315DCF320809468002C7C2D /* ChattoAdditions.framework in Frameworks */,
+				6315DCF220809468002C7C2D /* Chatto.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +479,86 @@
 				EF5F2D0ED0A99853007E8D1E /* Pods_wms.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6315DCD220809468002C7C2D /* Chatto */ = {
+			isa = PBXGroup;
+			children = (
+				6315DCD320809468002C7C2D /* Chatto */,
+				6315DCD620809468002C7C2D /* ChatVC.swift */,
+				6315DCD720809468002C7C2D /* ChatVC.xib */,
+				6315DCD820809468002C7C2D /* files */,
+			);
+			path = Chatto;
+			sourceTree = "<group>";
+		};
+		6315DCD320809468002C7C2D /* Chatto */ = {
+			isa = PBXGroup;
+			children = (
+				6315DCD420809468002C7C2D /* Chatto.framework */,
+				6315DCD520809468002C7C2D /* ChattoAdditions.framework */,
+			);
+			path = Chatto;
+			sourceTree = "<group>";
+		};
+		6315DCD820809468002C7C2D /* files */ = {
+			isa = PBXGroup;
+			children = (
+				6315DCD920809468002C7C2D /* BaseMessageCollectionViewCellAvatarStyle.swift */,
+				6315DCDA20809468002C7C2D /* BaseMessageHandler.swift */,
+				6315DCDB20809468002C7C2D /* ChatItemsDemoDecorator.swift */,
+				6315DCDC20809468002C7C2D /* ChattoNavi.swift */,
+				6315DCDD20809468002C7C2D /* ChattoNavi.xib */,
+				6315DCDE20809468002C7C2D /* FakeDataSource.swift */,
+				6315DCDF20809468002C7C2D /* FakeMessageFactory.swift */,
+				6315DCE020809468002C7C2D /* FakeMessageSender.swift */,
+				6315DCE120809468002C7C2D /* Photo Messages */,
+				6315DCE520809468002C7C2D /* Sending status */,
+				6315DCE920809468002C7C2D /* SlidingDatasSource.swift */,
+				6315DCEA20809468002C7C2D /* Text Messages */,
+				6315DCEE20809468002C7C2D /* Time Separator */,
+			);
+			path = files;
+			sourceTree = "<group>";
+		};
+		6315DCE120809468002C7C2D /* Photo Messages */ = {
+			isa = PBXGroup;
+			children = (
+				6315DCE220809468002C7C2D /* DemoPhotoMessageHandler.swift */,
+				6315DCE320809468002C7C2D /* DemoPhotoMessageModel.swift */,
+				6315DCE420809468002C7C2D /* DemoPhotoMessageViewModel.swift */,
+			);
+			path = "Photo Messages";
+			sourceTree = "<group>";
+		};
+		6315DCE520809468002C7C2D /* Sending status */ = {
+			isa = PBXGroup;
+			children = (
+				6315DCE620809468002C7C2D /* SendingStatusCollectionViewCell.swift */,
+				6315DCE720809468002C7C2D /* SendingStatusCollectionViewCell.xib */,
+				6315DCE820809468002C7C2D /* SendingStatusPresenter.swift */,
+			);
+			path = "Sending status";
+			sourceTree = "<group>";
+		};
+		6315DCEA20809468002C7C2D /* Text Messages */ = {
+			isa = PBXGroup;
+			children = (
+				6315DCEB20809468002C7C2D /* DemoTextMessageHandler.swift */,
+				6315DCEC20809468002C7C2D /* DemoTextMessageModel.swift */,
+				6315DCED20809468002C7C2D /* DemoTextMessageViewModel.swift */,
+			);
+			path = "Text Messages";
+			sourceTree = "<group>";
+		};
+		6315DCEE20809468002C7C2D /* Time Separator */ = {
+			isa = PBXGroup;
+			children = (
+				6315DCEF20809468002C7C2D /* TimeSeparatorCollectionViewCell.swift */,
+				6315DCF020809468002C7C2D /* TimeSeparatorModel.swift */,
+				6315DCF120809468002C7C2D /* TimeSeparatorPresenter.swift */,
+			);
+			path = "Time Separator";
 			sourceTree = "<group>";
 		};
 		634EDDDD207C8C0E00DCACFD /* MainTab */ = {
@@ -1181,6 +1313,7 @@
 		63AC75742079ED5B000049E2 /* 3rdSource */ = {
 			isa = PBXGroup;
 			children = (
+				6315DCD220809468002C7C2D /* Chatto */,
 				63AC77E3207A0234000049E2 /* SplashView.swift */,
 				63AC778E2079F448000049E2 /* CitySource */,
 				63AC77922079F448000049E2 /* INOScrollView */,
@@ -1492,6 +1625,7 @@
 				634EDE75207C8E0800DCACFD /* CCellMainPart3.xib in Resources */,
 				634EDE71207C8E0800DCACFD /* CCellMainPart1.xib in Resources */,
 				63AC77B62079F448000049E2 /* citydatacoding.plist in Resources */,
+				6315DCF520809468002C7C2D /* ChatVC.xib in Resources */,
 				634EDE81207C8E0800DCACFD /* AddressAddVC.xib in Resources */,
 				634EDEC0207C8E0800DCACFD /* TicketChooseVC.xib in Resources */,
 				634EDEAC207C8E0800DCACFD /* CCellUserPartMenu.xib in Resources */,
@@ -1511,6 +1645,7 @@
 				63AC77E22079FC1B000049E2 /* MyLaunch.storyboard in Resources */,
 				634EDE73207C8E0800DCACFD /* CCellMainPart2.xib in Resources */,
 				63AC754C2079EBF8000049E2 /* Assets.xcassets in Resources */,
+				6315DD0220809468002C7C2D /* SendingStatusCollectionViewCell.xib in Resources */,
 				6357DAA5207E108A00E89E74 /* TabUserInfoVC.xib in Resources */,
 				634EDEA4207C8E0800DCACFD /* OrderMainVC.xib in Resources */,
 				634EDDE6207C8C0E00DCACFD /* TabMsg.storyboard in Resources */,
@@ -1523,6 +1658,7 @@
 				63AC77CD2079F448000049E2 /* IconTransitions.json in Resources */,
 				634EDEC6207C8E0800DCACFD /* TCellUserRootNormal.xib in Resources */,
 				6357DA9A207E035000E89E74 /* TabUserSetVC.xib in Resources */,
+				6315DCFA20809468002C7C2D /* ChattoNavi.xib in Resources */,
 				634EDED7207C902100DCACFD /* Tab3ShoppingCar.storyboard in Resources */,
 				63AC77E7207A0563000049E2 /* Source.bundle in Resources */,
 				634EDEAA207C8E0800DCACFD /* CCellUserPartHead.xib in Resources */,
@@ -1609,6 +1745,7 @@
 				63AC77BD2079F448000049E2 /* Reflect+Class.swift in Sources */,
 				634EDEA9207C8E0800DCACFD /* CCellUserPartHead.swift in Sources */,
 				634EDEA1207C8E0800DCACFD /* OrderFuwuVC.swift in Sources */,
+				6315DCFB20809468002C7C2D /* FakeDataSource.swift in Sources */,
 				634EDE9F207C8E0800DCACFD /* CCellFoundTop.swift in Sources */,
 				634EDE90207C8E0800DCACFD /* viewMallHolder.swift in Sources */,
 				634EDEB3207C8E0800DCACFD /* CHUserPartTitle.swift in Sources */,
@@ -1616,6 +1753,8 @@
 				63AC75812079EF86000049E2 /* Colors.swift in Sources */,
 				634EDE8C207C8E0800DCACFD /* viewConfirmHeaderRight.swift in Sources */,
 				634EDE88207C8E0800DCACFD /* viewConfirmFooter.swift in Sources */,
+				6315DD0120809468002C7C2D /* SendingStatusCollectionViewCell.swift in Sources */,
+				6315DD0520809468002C7C2D /* DemoTextMessageHandler.swift in Sources */,
 				634EDE96207C8E0800DCACFD /* ShoppingCarVC.swift in Sources */,
 				634EDF15207C99CF00DCACFD /* FenleiMainVC.swift in Sources */,
 				634EDE9E207C8E0800DCACFD /* ResetpwdVC.swift in Sources */,
@@ -1623,6 +1762,7 @@
 				634EDE70207C8E0800DCACFD /* CCellMainPart1.swift in Sources */,
 				634EDEB5207C8E0800DCACFD /* TCellNotice.swift in Sources */,
 				634EDE92207C8E0800DCACFD /* ConfirmOrderVC.swift in Sources */,
+				6315DCF920809468002C7C2D /* ChattoNavi.swift in Sources */,
 				634EDE99207C8E0800DCACFD /* LikeMainVC.swift in Sources */,
 				634EDE7C207C8E0800DCACFD /* TCellAddress.swift in Sources */,
 				634EDEBE207C8E0800DCACFD /* sysNoticeVC.swift in Sources */,
@@ -1639,20 +1779,28 @@
 				63AC77CC2079F448000049E2 /* ExampleLottieAnimateContentView.swift in Sources */,
 				63AC77BA2079F448000049E2 /* Reflect+ArcFile.swift in Sources */,
 				634EDE84207C8E0800DCACFD /* AddressListVC.swift in Sources */,
+				6315DCF820809468002C7C2D /* ChatItemsDemoDecorator.swift in Sources */,
+				6315DD0420809468002C7C2D /* SlidingDatasSource.swift in Sources */,
+				6315DD0A20809468002C7C2D /* TimeSeparatorPresenter.swift in Sources */,
 				63AC77B92079F448000049E2 /* INOScrollViewCell.swift in Sources */,
 				63AC77C12079F448000049E2 /* Reflect.swift in Sources */,
 				634EDE72207C8E0800DCACFD /* CCellMainPart2.swift in Sources */,
 				63AC77BE2079F448000049E2 /* Reflect+Other.swift in Sources */,
 				634EDF09207C98E300DCACFD /* FalvMainVC.swift in Sources */,
 				634EDEC7207C8E0800DCACFD /* UserRootVC.swift in Sources */,
+				6315DD0020809468002C7C2D /* DemoPhotoMessageViewModel.swift in Sources */,
 				63AC77D22079F551000049E2 /* IBConst.swift in Sources */,
 				63AC77E02079FC04000049E2 /* LaunchBVC.swift in Sources */,
 				634EDEB7207C8E0800DCACFD /* TCellQuan.swift in Sources */,
+				6315DD0620809468002C7C2D /* DemoTextMessageModel.swift in Sources */,
+				6315DCF620809468002C7C2D /* BaseMessageCollectionViewCellAvatarStyle.swift in Sources */,
 				634EDE7B207C8E0800DCACFD /* ZoneRootVC.swift in Sources */,
 				634EDEC3207C8E0800DCACFD /* TCellUserRootHead.swift in Sources */,
 				63AC77C02079F448000049E2 /* Reflect+Type.swift in Sources */,
 				634EDEA5207C8E0800DCACFD /* AboutUSVC.swift in Sources */,
 				63AC77B52079F448000049E2 /* AddressCityPickerView.swift in Sources */,
+				6315DCFF20809468002C7C2D /* DemoPhotoMessageModel.swift in Sources */,
+				6315DCF720809468002C7C2D /* BaseMessageHandler.swift in Sources */,
 				634EDEB1207C8E0800DCACFD /* CCellUserSetFilesCount.swift in Sources */,
 				63AC75832079EF86000049E2 /* Dates.swift in Sources */,
 				63AC77B82079F448000049E2 /* INOScrollView.swift in Sources */,
@@ -1663,9 +1811,11 @@
 				63AC77C22079F448000049E2 /* ShareView.swift in Sources */,
 				634EDE8E207C8E0800DCACFD /* ViewMallCarHeader.swift in Sources */,
 				634EDEA6207C8E0800DCACFD /* NameChangeVC.swift in Sources */,
+				6315DD0920809468002C7C2D /* TimeSeparatorModel.swift in Sources */,
 				634EDEC5207C8E0800DCACFD /* TCellUserRootNormal.swift in Sources */,
 				63AC77C42079F448000049E2 /* ShareWX.swift in Sources */,
 				634EDEAF207C8E0800DCACFD /* CCellUserSet.swift in Sources */,
+				6315DD0720809468002C7C2D /* DemoTextMessageViewModel.swift in Sources */,
 				634EDEBD207C8E0800DCACFD /* SafeSetVC.swift in Sources */,
 				634EDE82207C8E0800DCACFD /* AddressChooseVC.swift in Sources */,
 				634EDEAB207C8E0800DCACFD /* CCellUserPartMenu.swift in Sources */,
@@ -1676,6 +1826,7 @@
 				63AC77E4207A0234000049E2 /* SplashView.swift in Sources */,
 				634EDE97207C8E0800DCACFD /* LikeGoodsVC.swift in Sources */,
 				634EDE7E207C8E0800DCACFD /* TCellAddressChoose.swift in Sources */,
+				6315DCFE20809468002C7C2D /* DemoPhotoMessageHandler.swift in Sources */,
 				634EDEA7207C8E0800DCACFD /* SetVC.swift in Sources */,
 				634EDE79207C8E0800DCACFD /* MsgRootVC.swift in Sources */,
 				634EDE9B207C8E0800DCACFD /* LoginMainVC.swift in Sources */,
@@ -1686,6 +1837,7 @@
 				63AC77C72079F448000049E2 /* ExampleBasicContentView.swift in Sources */,
 				634EDF06207C98B500DCACFD /* ServiceTabC.swift in Sources */,
 				63AC77BB2079F448000049E2 /* Reflect+Parse.swift in Sources */,
+				6315DCFC20809468002C7C2D /* FakeMessageFactory.swift in Sources */,
 				634EDF13207C99BB00DCACFD /* CaigouMainVC.swift in Sources */,
 				63AC77C62079F448000049E2 /* ExampleBackgroundContentView.swift in Sources */,
 				634EDEA3207C8E0800DCACFD /* OrderMainVC.swift in Sources */,
@@ -1701,11 +1853,15 @@
 				634EDE7A207C8E0800DCACFD /* ServiceRootVC.swift in Sources */,
 				6357DA93207DE12500E89E74 /* NetManager.swift in Sources */,
 				634EDF0B207C990200DCACFD /* ChuangtouMainVC.swift in Sources */,
+				6315DD0320809468002C7C2D /* SendingStatusPresenter.swift in Sources */,
+				6315DCF420809468002C7C2D /* ChatVC.swift in Sources */,
 				63AC75852079EF86000049E2 /* Views.swift in Sources */,
 				634EDE85207C8E0800DCACFD /* ModelOrder.swift in Sources */,
 				63AC77B72079F448000049E2 /* ProvinceModel.swift in Sources */,
 				63AC77C52079F448000049E2 /* ExampleAnimateTipsContentView.swift in Sources */,
+				6315DD0820809468002C7C2D /* TimeSeparatorCollectionViewCell.swift in Sources */,
 				634EDE9D207C8E0800DCACFD /* RegisterVC.swift in Sources */,
+				6315DCFD20809468002C7C2D /* FakeMessageSender.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1863,6 +2019,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/wms/MainCode/3rdSource/TabCustom/Lottie",
 					"$(PROJECT_DIR)/wms/MainCode/3rdSource/TabCustom",
+					"$(PROJECT_DIR)/wms/MainCode/3rdSource/Chatto/Chatto",
 				);
 				INFOPLIST_FILE = wms/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -1885,6 +2042,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/wms/MainCode/3rdSource/TabCustom/Lottie",
 					"$(PROJECT_DIR)/wms/MainCode/3rdSource/TabCustom",
+					"$(PROJECT_DIR)/wms/MainCode/3rdSource/Chatto/Chatto",
 				);
 				INFOPLIST_FILE = wms/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;

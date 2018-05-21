@@ -20,5 +20,7 @@
 #import <CommonCrypto/CommonDigest.h>
 #import "SVProgressHUD/SVProgressHUD.h"
 #import "CYLTableViewPlaceHolder/CYLTableViewPlaceHolder.h"
+#import <Chatto/Chatto-Swift.h>
+#import <ChattoAdditions/ChattoAdditions-Swift.h>
 
 #endif /* BridgeHeader_h */

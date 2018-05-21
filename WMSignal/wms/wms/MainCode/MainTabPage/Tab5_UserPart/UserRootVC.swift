@@ -173,6 +173,20 @@ extension UserRootVC:UITableViewDataSource,UITableViewDelegate{
                 break
             case 2:
                 print("足迹")
+                let Vc = ChatVC(nibName: "ChatVC", bundle: nil)
+                self.tabBarController?.tabBar.isHidden = true
+                
+                let initialCount = 2
+                let pageSize = 50
+                
+                var adataSource: FakeDataSource!
+                
+                adataSource = FakeDataSource(count: initialCount, pageSize: pageSize)
+                
+                Vc.dataSource = adataSource
+                Vc.messageSender = adataSource.messageSender
+                
+                self.navigationController?.pushViewController(Vc, animated: true)
                 break
             case 3:
                 print("安全中心")
